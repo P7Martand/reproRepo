@@ -6,7 +6,7 @@ from pipeline123.functions import *
 from . import *
 from .config import *
 
-def Subgraph_2(spark: SparkSession, subgraph_config: SubgraphConfig) -> DataFrame:
+def Subgraph_2(spark: SparkSession, subgraph_config: SubgraphConfig, source0: DataFrame) -> DataFrame:
     Config.update(subgraph_config)
     df_src_avro_CustsDatasetInput_2 = src_avro_CustsDatasetInput_2(spark)
     df_Subgraph_1_3_1_out0, df_Subgraph_1_3_1_target1 = Subgraph_1_3_1(

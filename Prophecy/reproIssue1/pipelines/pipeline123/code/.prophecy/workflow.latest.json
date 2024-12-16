@@ -1083,6 +1083,12 @@
     "sourcePort" : "RMdYmwZuDQOfR0V9G3dqb$$wzQwogMmacaPhnUpBqP3w",
     "target" : "AUUX4sB9G_7x4HhOh-MBY$$2PVHpDkoGArc1hOepoFlx",
     "targetPort" : "Gj_4FSk6ahm9Wb-r4nNNe$$bfJ4SzhAIeGpF25f-olXJ"
+  }, {
+    "id" : "SGeoFDM4TDmFvudlHlYyd",
+    "source" : "SVggvx97206y_-6ptEgrq$$CQECpyEUYe8eWI1gH1on7",
+    "sourcePort" : "Tye-iimyMcPbKdUceBhSM$$CdkFTjBuLUHUW3faU0BKE",
+    "target" : "MBNfC_nA-Sp9ycXXAbmn9$$BRqahuIhXm99NOBT_y0Wu",
+    "targetPort" : "gMrD5Ap1p1MvaFU_1qPi5$$gA6H4k9gg-IbfGtarSV3Q"
   } ],
   "processes" : {
     "tK6CHeAdIlksaNFd6PD0j$$jXknR9peGiQsKYiYSj7pe" : {
@@ -1091,8 +1097,8 @@
       "metadata" : {
         "label" : "Subgraph_2_1_1",
         "slug" : "Subgraph_2_1_1",
-        "x" : -100,
-        "y" : 80,
+        "x" : 480,
+        "y" : 860,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1490,11 +1496,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub2",
-            "name" : "sub2"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "G-zO2vG0jSXcP-jMp909X",
             "source" : "Fn5U5bSDhnMCC96ObxpYQ$$LK1ygWJawkpC8Sph8P3jx",
@@ -2330,11 +2332,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "dD99x672BxBB5QGOU4G_x",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$L2Hgk4coyE0uOyUNbgsar",
@@ -4042,11 +4040,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub3",
-            "name" : "sub3"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "fWRpeq7vgwnnjTrUAoHow",
             "source" : "XG5Xoi4F807NmpEa16Oqp$$Bezu0eNdEv62MSEqvPadX",
@@ -4911,11 +4905,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "dD99x672BxBB5QGOU4G_x",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$DobBca5uznCje42-BPjAN",
@@ -5653,8 +5643,8 @@
       "metadata" : {
         "label" : "src_avro_CustsDatasetInput",
         "slug" : "src_avro_CustsDatasetInput",
-        "x" : -580,
-        "y" : -340,
+        "x" : 20,
+        "y" : 440,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -5682,8 +5672,8 @@
       "metadata" : {
         "label" : "Subgraph_1_2",
         "slug" : "Subgraph_1_2",
-        "x" : 180,
-        "y" : -160,
+        "x" : 480,
+        "y" : 420,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -5862,11 +5852,7 @@
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       },
-      "properties" : {
-        "packageName" : "PackageStartDep",
-        "externalId" : "subgraphs/sub3",
-        "name" : "sub3"
-      },
+      "properties" : { },
       "connections" : [ {
         "id" : "fWRpeq7vgwnnjTrUAoHow",
         "source" : "XG5Xoi4F807NmpEa16Oqp$$NKAnJCFLJ5a1Rb54Rw_l9",
@@ -6602,8 +6588,8 @@
       "metadata" : {
         "label" : "Subgraph_2_1",
         "slug" : "Subgraph_2_1",
-        "x" : -320,
-        "y" : 80,
+        "x" : 220,
+        "y" : 860,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -6972,11 +6958,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub2",
-            "name" : "sub2"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "G-zO2vG0jSXcP-jMp909X",
             "source" : "Fn5U5bSDhnMCC96ObxpYQ$$wwKlzSxGUKpy1icj0klah",
@@ -8633,11 +8615,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "dD99x672BxBB5QGOU4G_x",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$cVkQAbJgjsyIfVLPRC5ke",
@@ -9473,11 +9451,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "dD99x672BxBB5QGOU4G_x",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$WJKHiqmAxOSYWD5D9B7u3",
@@ -10393,11 +10367,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub3",
-            "name" : "sub3"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "fWRpeq7vgwnnjTrUAoHow",
             "source" : "XG5Xoi4F807NmpEa16Oqp$$qm7o3Qq9bmY-25_M5cKj2",
@@ -11164,8 +11134,8 @@
       "metadata" : {
         "label" : "Subgraph_2_1_1_1",
         "slug" : "Subgraph_2_1_1_1",
-        "x" : -100,
-        "y" : 280,
+        "x" : 1560,
+        "y" : 860,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -12384,11 +12354,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub2",
-            "name" : "sub2"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "1C0WDJ8nittbPwOIfdPPn",
             "source" : "Fn5U5bSDhnMCC96ObxpYQ$$Ujycay-AsUN7jyjNV-Qq2",
@@ -13224,11 +13190,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "5PUHsEz2RyO7sx8R5bUi_",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$oF6VboeCTxF468WonrQxL",
@@ -14064,11 +14026,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "O1OEQL1_-Y3sh4JXFl1UB",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$4Mx45N96IjfjmJvvkiEEG",
@@ -14984,11 +14942,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub3",
-            "name" : "sub3"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "QP5QAvebSZXXDwg9S4sKG",
             "source" : "XG5Xoi4F807NmpEa16Oqp$$kLwY6nQbn5DH834cyOczf",
@@ -15726,8 +15680,8 @@
       "metadata" : {
         "label" : "src_avro_CustsDatasetInput_1",
         "slug" : "src_avro_CustsDatasetInput_1",
-        "x" : -860,
-        "y" : -820,
+        "x" : 20,
+        "y" : 1060,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -15753,8 +15707,8 @@
       "metadata" : {
         "label" : "Subgraph_1_1",
         "slug" : "Subgraph_1_1",
-        "x" : -80,
-        "y" : -160,
+        "x" : 220,
+        "y" : 460,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -15933,11 +15887,7 @@
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       },
-      "properties" : {
-        "packageName" : "PackageStartDep",
-        "externalId" : "subgraphs/sub2",
-        "name" : "sub2"
-      },
+      "properties" : { },
       "connections" : [ {
         "id" : "G-zO2vG0jSXcP-jMp909X",
         "source" : "Fn5U5bSDhnMCC96ObxpYQ$$7sXsvVktaaRxCCk6edM8W",
@@ -16673,8 +16623,8 @@
       "metadata" : {
         "label" : "Subgraph_2_1_3_1",
         "slug" : "Subgraph_2_1_3_1",
-        "x" : 200,
-        "y" : 300,
+        "x" : 1960,
+        "y" : 860,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -17109,11 +17059,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "gw0QEda52580_SjHNGfsG",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$xUAhi-kh9EgI_BY0xyvC9",
@@ -18614,11 +18560,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub2",
-            "name" : "sub2"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "Sqo85wq85DPJFtm6-v5dS",
             "source" : "Fn5U5bSDhnMCC96ObxpYQ$$PfKkVb6YrLCctdo1yG6ZJ",
@@ -19454,11 +19396,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "_1LFxbnxCsjEvx5eIYYNO",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$-aOUFLImt6e1Xywr17SUu",
@@ -20374,11 +20312,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub3",
-            "name" : "sub3"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "w4vvKtEzhJr7r-H6SGT-D",
             "source" : "XG5Xoi4F807NmpEa16Oqp$$MZaEebSvNE6F1bcNuPDJZ",
@@ -21233,15 +21167,18 @@
       "metadata" : {
         "label" : "Subgraph_2",
         "slug" : "Subgraph_2",
-        "x" : -540,
-        "y" : 60,
+        "x" : 20,
+        "y" : 860,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
       },
       "ports" : {
-        "inputs" : [ ],
+        "inputs" : [ {
+          "id" : "LhdKaPZvEWP_cnOyO3vmR$$WcrBxE8ocehrf7uCJY9_k",
+          "slug" : "source0"
+        } ],
         "outputs" : [ {
           "id" : "noIN-UGNxMWXcfI2y7-ok$$AzfClGq62bnk6H90VrQiL",
           "slug" : "target0"
@@ -21443,11 +21380,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "dD99x672BxBB5QGOU4G_x",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$Ks-U3RXfLIi4TtVKTGybz",
@@ -22958,11 +22891,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "dD99x672BxBB5QGOU4G_x",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$2d_g54EPDvobCp1b_73Wn",
@@ -23936,11 +23865,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub2",
-            "name" : "sub2"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "G-zO2vG0jSXcP-jMp909X",
             "source" : "Fn5U5bSDhnMCC96ObxpYQ$$9IYgOnKehF6jUuA85uDjm",
@@ -24973,11 +24898,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub3",
-            "name" : "sub3"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "fWRpeq7vgwnnjTrUAoHow",
             "source" : "XG5Xoi4F807NmpEa16Oqp$$st1ZVk7RevsbF3jii84dx",
@@ -25715,8 +25636,8 @@
       "metadata" : {
         "label" : "identity_transform_1",
         "slug" : "identity_transform_1",
-        "x" : -680,
-        "y" : -820,
+        "x" : 220,
+        "y" : 1060,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -25832,8 +25753,8 @@
       "metadata" : {
         "label" : "Subgraph_2_1_4",
         "slug" : "Subgraph_2_1_4",
-        "x" : -320,
-        "y" : 280,
+        "x" : 1360,
+        "y" : 860,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -26709,11 +26630,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "CCz2Z91eXeuu36nDhkw8l",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$bnJnrtcvEa1LkFqNcGXj9",
@@ -27549,11 +27466,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "RB_OwQkOTVzyEW8n9Qc5T",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$4IxC5WqFTMtmHyuASrtjw",
@@ -28732,11 +28645,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub3",
-            "name" : "sub3"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "SxdvndKSJxrlswc9m1x05",
             "source" : "XG5Xoi4F807NmpEa16Oqp$$xlMQPVIsebEcT2IWXMUEc",
@@ -29652,11 +29561,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub2",
-            "name" : "sub2"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "L_z6HDX99300qSi-y5iQ7",
             "source" : "Fn5U5bSDhnMCC96ObxpYQ$$22xpNRAqs8udud-ds78PD",
@@ -30394,8 +30299,8 @@
       "metadata" : {
         "label" : "multi_join",
         "slug" : "multi_join",
-        "x" : 460,
-        "y" : -540,
+        "x" : 740,
+        "y" : 360,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -30952,8 +30857,8 @@
       "metadata" : {
         "label" : "Subgraph_2_1_3",
         "slug" : "Subgraph_2_1_3",
-        "x" : 200,
-        "y" : 100,
+        "x" : 960,
+        "y" : 860,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -31242,11 +31147,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "dD99x672BxBB5QGOU4G_x",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$IHHWtHon_oie4MiOiQ5Qk",
@@ -33012,11 +32913,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub3",
-            "name" : "sub3"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "fWRpeq7vgwnnjTrUAoHow",
             "source" : "XG5Xoi4F807NmpEa16Oqp$$xpaq_SfVVqYvrAqkl6Abf",
@@ -33852,11 +33749,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "dD99x672BxBB5QGOU4G_x",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$3PmNMTQet5bJXP4EFbhR9",
@@ -34772,11 +34665,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub2",
-            "name" : "sub2"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "G-zO2vG0jSXcP-jMp909X",
             "source" : "Fn5U5bSDhnMCC96ObxpYQ$$_1tyF-zHvrtiG_fM3VOCX",
@@ -35514,8 +35403,8 @@
       "metadata" : {
         "label" : "Subgraph_2_1_2",
         "slug" : "Subgraph_2_1_2",
-        "x" : 40,
-        "y" : 80,
+        "x" : 740,
+        "y" : 860,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -36420,11 +36309,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "dD99x672BxBB5QGOU4G_x",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$6GLg5PqlAZ4JK3Eoa7JHU",
@@ -37260,11 +37145,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "dD99x672BxBB5QGOU4G_x",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$T12YmN-rk9koWwaFUY9Kf",
@@ -38297,11 +38178,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub3",
-            "name" : "sub3"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "fWRpeq7vgwnnjTrUAoHow",
             "source" : "XG5Xoi4F807NmpEa16Oqp$$QNXm_Pxz_Snhw7x3lOJT3",
@@ -39334,11 +39211,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub2",
-            "name" : "sub2"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "G-zO2vG0jSXcP-jMp909X",
             "source" : "Fn5U5bSDhnMCC96ObxpYQ$$nqBlTkwe1nPStJXEfYelo",
@@ -40076,8 +39949,8 @@
       "metadata" : {
         "label" : "Subgraph_1_3",
         "slug" : "Subgraph_1_3",
-        "x" : -200,
-        "y" : -800,
+        "x" : 480,
+        "y" : 20,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -40176,11 +40049,7 @@
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       },
-      "properties" : {
-        "packageName" : "PackageStartDep",
-        "externalId" : "subgraphs/subs1",
-        "name" : "subs1"
-      },
+      "properties" : { },
       "connections" : [ {
         "id" : "dD99x672BxBB5QGOU4G_x",
         "source" : "n30Dzgs_TXnqsJm93qLcC$$G7VEPod-7PKt9_LMztG4g",
@@ -40916,8 +40785,8 @@
       "metadata" : {
         "label" : "Subgraph_1",
         "slug" : "Subgraph_1",
-        "x" : -220,
-        "y" : -320,
+        "x" : 480,
+        "y" : 220,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -41016,11 +40885,7 @@
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       },
-      "properties" : {
-        "packageName" : "PackageStartDep",
-        "externalId" : "subgraphs/subs1",
-        "name" : "subs1"
-      },
+      "properties" : { },
       "connections" : [ {
         "id" : "dD99x672BxBB5QGOU4G_x",
         "source" : "n30Dzgs_TXnqsJm93qLcC$$dVMYQMGnFyjVERuMZWAbo",
@@ -41756,15 +41621,95 @@
       "metadata" : {
         "label" : "Subgraph_2_2",
         "slug" : "Subgraph_2_2",
-        "x" : -540,
-        "y" : 260,
+        "x" : 1160,
+        "y" : 860,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
       },
       "ports" : {
-        "inputs" : [ ],
+        "inputs" : [ {
+          "id" : "gMrD5Ap1p1MvaFU_1qPi5$$gA6H4k9gg-IbfGtarSV3Q",
+          "slug" : "source0",
+          "schema" : {
+            "type" : "struct",
+            "fields" : [ {
+              "name" : "customer_id",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Unique identifier for each customer in the dataset.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "first_name",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "The first name of the customer.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "last_name",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "The surname of the customer.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "phone",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Contact number of the customer; Formatted as a standard phone number.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "email",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Email address of the customer; Used for communication and account-related notifications.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "country_code",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "ISO code representing the country of the customer.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "account_open_date",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Date when the customer account was opened; Format is YYYY-MM-DD.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "account_flags",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "Flags indicating the status or special conditions of the customer account.",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            } ]
+          },
+          "isStreaming" : false
+        } ],
         "outputs" : [ {
           "id" : "l4Zk8pmT7__4e2Hh1qWfr$$DUiKEve2wo0Poe3fn8RUP",
           "slug" : "target0"
@@ -42046,11 +41991,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub3",
-            "name" : "sub3"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "mKRv4nHEiPS6vVkbOTtrh",
             "source" : "XG5Xoi4F807NmpEa16Oqp$$qH0x5Q9CyRzN1mylyv3H6",
@@ -42886,11 +42827,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "8yG_gm3ZrowIRtD9JRIf9",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$ojYEuBuZcmxHaTCC6-CBh",
@@ -43755,11 +43692,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "teUlHxApfdGXOqYUXJDaG",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$v9r9WZaYFL5-l9tXLttGk",
@@ -44821,11 +44754,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub2",
-            "name" : "sub2"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "00Sju-ktNlinYyZNnT5w0",
             "source" : "Fn5U5bSDhnMCC96ObxpYQ$$CFYV6fJNdkBrtLH8JNfsC",
@@ -46238,8 +46167,8 @@
       "metadata" : {
         "label" : "identity_transform",
         "slug" : "identity_transform",
-        "x" : -240,
-        "y" : -540,
+        "x" : 220,
+        "y" : 660,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -46355,8 +46284,8 @@
       "metadata" : {
         "label" : "Subgraph_2_1_2_1",
         "slug" : "Subgraph_2_1_2_1",
-        "x" : 40,
-        "y" : 280,
+        "x" : 1760,
+        "y" : 860,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -46645,11 +46574,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "tJsq6JE1yuKYZL0QKnNwO",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$jnJjJ-VuICtLhU0jnS5pT",
@@ -47485,11 +47410,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/subs1",
-            "name" : "subs1"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "XnrPsuJ-RQp9J3d2CxUD6",
             "source" : "n30Dzgs_TXnqsJm93qLcC$$kzGHExul_qeGcZxXtgpRI",
@@ -48434,11 +48355,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub3",
-            "name" : "sub3"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "B2kJNGUYH6oC9l6sVjvgz",
             "source" : "XG5Xoi4F807NmpEa16Oqp$$sxyt6ZN3lrz4i3AgWoTs6",
@@ -49941,11 +49858,7 @@
             "isCustomOutputSchema" : false,
             "autoUpdateOnRun" : false
           },
-          "properties" : {
-            "packageName" : "PackageStartDep",
-            "externalId" : "subgraphs/sub2",
-            "name" : "sub2"
-          },
+          "properties" : { },
           "connections" : [ {
             "id" : "7yBdl52r0P8TAQyEmREGX",
             "source" : "Fn5U5bSDhnMCC96ObxpYQ$$Snl81yE99Ch70lCMF4BL_",

@@ -3,6 +3,8 @@ from pipeline123.graph.Subgraph_2_1.config.Config import SubgraphConfig as Subgr
 from pipeline123.graph.Subgraph_2_1_1.config.Config import SubgraphConfig as Subgraph_2_1_1_Config
 from pipeline123.graph.Subgraph_1_1.config.Config import SubgraphConfig as Subgraph_1_1_Config
 from pipeline123.graph.Subgraph_1_2.config.Config import SubgraphConfig as Subgraph_1_2_Config
+from pipeline123.graph.Subgraph_2_1_2.config.Config import SubgraphConfig as Subgraph_2_1_2_Config
+from pipeline123.graph.Subgraph_2_1_3.config.Config import SubgraphConfig as Subgraph_2_1_3_Config
 from pipeline123.graph.Subgraph_2_2.config.Config import SubgraphConfig as Subgraph_2_2_Config
 from pipeline123.graph.Subgraph_2_1_4.config.Config import SubgraphConfig as Subgraph_2_1_4_Config
 from pipeline123.graph.Subgraph_2_1_1_1.config.Config import SubgraphConfig as Subgraph_2_1_1_1_Config
@@ -10,8 +12,6 @@ from pipeline123.graph.Subgraph_2_1_2_1.config.Config import SubgraphConfig as S
 from pipeline123.graph.Subgraph_2_1_3_1.config.Config import SubgraphConfig as Subgraph_2_1_3_1_Config
 from pipeline123.graph.Subgraph_1_3.config.Config import SubgraphConfig as Subgraph_1_3_Config
 from pipeline123.graph.Subgraph_1.config.Config import SubgraphConfig as Subgraph_1_Config
-from pipeline123.graph.Subgraph_2_1_2.config.Config import SubgraphConfig as Subgraph_2_1_2_Config
-from pipeline123.graph.Subgraph_2_1_3.config.Config import SubgraphConfig as Subgraph_2_1_3_Config
 from prophecy.config import ConfigBase
 
 
