@@ -29,7 +29,7 @@ def pipeline(spark: SparkSession) -> None:
     df_Subgraph_2_1_4 = Subgraph_2_1_4(spark, Config.Subgraph_2_1_4, df_Subgraph_2_2)
     df_Subgraph_2_1_1_1 = Subgraph_2_1_1_1(spark, Config.Subgraph_2_1_1_1, df_Subgraph_2_1_4)
     df_src_avro_CustsDatasetInput_1 = src_avro_CustsDatasetInput_1(spark)
-    df_Subgraph_2_1_2_1 = Subgraph_2_1_2_1(spark, Config.Subgraph_2_1_2_1, df_Subgraph_2_1_1_1)
+    df_Subgraph_2_1_2_1 = Subgraph_2_1_2_1(spark, Config.Subgraph_2_1_2_1, df_Subgraph_2_1_1_1_2323)
     df_Subgraph_2_1_3_1 = Subgraph_2_1_3_1(spark, Config.Subgraph_2_1_3_1, df_Subgraph_2_1_2_1)
     df_identity_transform_1 = identity_transform_1(spark, df_src_avro_CustsDatasetInput_1)
     df_Subgraph_1_3_out0, df_Subgraph_1_3_target1 = Subgraph_1_3(
