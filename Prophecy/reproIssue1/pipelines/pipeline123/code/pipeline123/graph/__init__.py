@@ -16,5 +16,4 @@ from .src_avro_CustsDatasetInput import src_avro_CustsDatasetInput
 from .identity_transform_1 import identity_transform_1
 from .multi_join import multi_join
 from .identity_transform import identity_transform
-from .TRANSORMERS_1 import TRANSORMERS_1
 from .src_avro_CustsDatasetInput_1 import src_avro_CustsDatasetInput_1

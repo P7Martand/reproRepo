@@ -1089,12 +1089,6 @@
     "sourcePort" : "Tye-iimyMcPbKdUceBhSM$$CdkFTjBuLUHUW3faU0BKE",
     "target" : "MBNfC_nA-Sp9ycXXAbmn9$$BRqahuIhXm99NOBT_y0Wu",
     "targetPort" : "gMrD5Ap1p1MvaFU_1qPi5$$gA6H4k9gg-IbfGtarSV3Q"
-  }, {
-    "id" : "8l11MLFMHxh3XrC_fnILJ$$v_8BZz-CaNoHW5uIK5cZH",
-    "source" : "Zd_9MSECj_GSQ-TU-pSUH$$29vass2BeiTEIWTHwHlZ3",
-    "sourcePort" : "eE-HKZlrlnzyjqpiLgeQ8$$tWKIU_C-orGFT_jbZURlf",
-    "target" : "gAFay7WjIQlyatkAiXjVa$$p0U-5HF7fSYWgJPwFLz8B",
-    "targetPort" : "Tp8KeNoHeP1b1Yz6uRlhm$$Xa2T6Eh4LIp_HaKpMpaO5"
   } ],
   "processes" : {
     "tK6CHeAdIlksaNFd6PD0j$$jXknR9peGiQsKYiYSj7pe" : {
@@ -40783,117 +40777,6 @@
             "projectName" : "ProphecySparkBasicsPython"
           }
         }
-      }
-    },
-    "gAFay7WjIQlyatkAiXjVa$$p0U-5HF7fSYWgJPwFLz8B" : {
-      "id" : "gAFay7WjIQlyatkAiXjVa$$p0U-5HF7fSYWgJPwFLz8B",
-      "component" : "TRANSORMERS",
-      "metadata" : {
-        "label" : "TRANSORMERS_1",
-        "slug" : "TRANSORMERS_1",
-        "x" : 360,
-        "y" : 660,
-        "phase" : 0,
-        "cache" : false,
-        "detailedStats" : false,
-        "isImported" : false
-      },
-      "ports" : {
-        "inputs" : [ {
-          "id" : "Tp8KeNoHeP1b1Yz6uRlhm$$Xa2T6Eh4LIp_HaKpMpaO5",
-          "slug" : "in0",
-          "schema" : {
-            "type" : "struct",
-            "fields" : [ {
-              "name" : "customer_id",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "Unique identifier for each customer in the dataset.",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "first_name",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "The first name of the customer.",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "last_name",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "The surname of the customer.",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "phone",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "Contact number of the customer; Formatted as a standard phone number.",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "email",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "Email address of the customer; Used for communication and account-related notifications.",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "country_code",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "ISO code representing the country of the customer.",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "account_open_date",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "Date when the customer account was opened; Format is YYYY-MM-DD.",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "account_flags",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "Flags indicating the status or special conditions of the customer account.",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            } ]
-          },
-          "isStreaming" : false
-        } ],
-        "outputs" : [ {
-          "id" : "3V4pFezIAjqyEPiZDCwbh$$qoKLc53sAouhx5-Gaqr2V",
-          "slug" : "out"
-        } ],
-        "selectedInputFields" : [ ],
-        "isCustomOutputSchema" : false,
-        "autoUpdateOnRun" : false
-      },
-      "properties" : {
-        "my_property" : "default value of my property"
-      },
-      "componentInfo" : {
-        "gemId" : "gems/TRANSORMERS",
-        "projectName" : "ReproTough-1"
       }
     },
     "iCmKL5rsq3oFijnDdLESA$$9Kxp1LZKIDgTzVNrQRpI7" : {

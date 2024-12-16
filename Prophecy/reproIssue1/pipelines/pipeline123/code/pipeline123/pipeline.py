@@ -47,7 +47,6 @@ def pipeline(spark: SparkSession) -> None:
         df_Subgraph_1_1_target1
     )
     df_identity_transform = identity_transform(spark, df_src_avro_CustsDatasetInput)
-    df_TRANSORMERS_1 = TRANSORMERS_1(spark, df_identity_transform)
 
 def main():
     spark = SparkSession.builder\
