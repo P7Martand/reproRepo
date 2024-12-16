@@ -11,8 +11,6 @@ def pipeline(spark: SparkSession) -> None:
     df_Subgraph_2_1 = Subgraph_2_1(spark, Config.Subgraph_2_1, df_Subgraph_2)
     df_Subgraph_2_1_1 = Subgraph_2_1_1(spark, Config.Subgraph_2_1_1, df_Subgraph_2_1)
     df_src_avro_CustsDatasetInput = src_avro_CustsDatasetInput(spark)
-    df_identity_transform = identity_transform(spark, df_src_avro_CustsDatasetInput)
-    df_TRANSORMERS_1 = TRANSORMERS_1(spark, df_identity_transform)
     df_Subgraph_1_1_out0, df_Subgraph_1_1_target1 = Subgraph_1_1(
         spark, 
         Config.Subgraph_1_1, 
@@ -31,7 +29,7 @@ def pipeline(spark: SparkSession) -> None:
     df_Subgraph_2_1_4 = Subgraph_2_1_4(spark, Config.Subgraph_2_1_4, df_Subgraph_2_2)
     df_Subgraph_2_1_1_1 = Subgraph_2_1_1_1(spark, Config.Subgraph_2_1_1_1, df_Subgraph_2_1_4)
     df_src_avro_CustsDatasetInput_1 = src_avro_CustsDatasetInput_1(spark)
-    df_Subgraph_2_1_2_1 = Subgraph_2_1_2_1(spark, Config.Subgraph_2_1_2_1, df_Subgraph_2_1_1_1)
+    df_Subgraph_2_1_2_1 = Subgraph_2_1_2_1(spark, Config.Subgraph_2_1_2_1, df_Subgraph_2_1_1_1_2)
     df_Subgraph_2_1_3_1 = Subgraph_2_1_3_1(spark, Config.Subgraph_2_1_3_1, df_Subgraph_2_1_2_1)
     df_identity_transform_1 = identity_transform_1(spark, df_src_avro_CustsDatasetInput_1)
     df_Subgraph_1_3_out0, df_Subgraph_1_3_target1 = Subgraph_1_3(
@@ -48,7 +46,7 @@ def pipeline(spark: SparkSession) -> None:
         df_Subgraph_1_2_target1, 
         df_Subgraph_1_1_target1
     )
-    df_TRANSORMERS_1 = TRANSORMERS_1(spark)
+    df_identity_transform = identity_transform(spark, df_src_avro_CustsDatasetInput)
 
 def main():
     spark = SparkSession.builder\
